@@ -1,7 +1,9 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
-apply plugin: 'com.jfrog.bintray'
+//apply plugin: 'com.jfrog.bintray'
 
+ext.androidTargetSdk = 28
+ext.zxingCore = 'com.google.zxing:core:3.4.0'
 
 ext.artifactId = 'zxing-android-embedded'
 

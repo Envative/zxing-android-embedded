@@ -1,2 +1,5 @@
+rootProject.name = 'zxing'
 include ':zxing-android-embedded'
 include ':sample'
+
+project(':zxing-android-embedded').projectDir = new File(settingsDir, 'zxing-android-embedded')
